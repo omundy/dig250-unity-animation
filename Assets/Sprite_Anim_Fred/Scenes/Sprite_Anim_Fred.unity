@@ -1163,7 +1163,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1278488516}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.006, y: -0.318, z: 0}
+  m_LocalPosition: {x: -0.006, y: -0.375, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1403,7 +1403,6 @@ GameObject:
   - component: {fileID: 1871997495}
   - component: {fileID: 1871997494}
   - component: {fileID: 1871997496}
-  - component: {fileID: 1871997497}
   - component: {fileID: 1871997498}
   - component: {fileID: 1871997499}
   - component: {fileID: 1871997501}
@@ -1504,24 +1503,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1871997497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1871997493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a727bb2d03f63472d8190e2b2e727fd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 1871997498}
-  animator: {fileID: 1871997496}
-  runSpeed: 25
-  horizontalMove: 0
-  jump: 0
-  crouch: 0
 --- !u!114 &1871997498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1534,35 +1515,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3d92d1e8df6d4f4cb9792cc4c4af37c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 700
-  m_CrouchSpeed: 0.4
-  m_MovementSmoothing: 0.05
-  m_AirControl: 1
-  m_WhatIsGround:
+  playerInput: {x: 0, y: 0}
+  jumpPress: 0
+  jumpHold: 0
+  groundLayer:
     serializedVersion: 2
-    m_Bits: 192
-  m_GroundCheck: {fileID: 1278488517}
-  m_CeilingCheck: {fileID: 2026277281}
-  m_CrouchDisableCollider: {fileID: 0}
-  m_Grounded: 0
-  OnLandEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1871997497}
-        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
-        m_MethodName: OnLanding
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnCrouchEvent:
-    m_PersistentCalls:
-      m_Calls: []
+    m_Bits: 64
+  ceilingCheck: {fileID: 2026277281}
+  groundCheck: {fileID: 1278488517}
+  runSpeed: 26
+  jumpForce: 6.2
+  fallMultiplier: 2.5
+  lowJumpMultiplier: 3
+  movementSmoothing: 0.05
+  airControl: 1
+  rememberGroundedFor: 0.1
+  animator: {fileID: 1871997496}
+  facingRight: 1
+  isGrounded: 0
 --- !u!50 &1871997499
 Rigidbody2D:
   serializedVersion: 4
@@ -1578,7 +1548,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 5
+  m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: 9365389eb52da46bc9e00fede5440ca6, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -1624,7 +1594,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.31536835, y: 0.3793146}
+  m_Size: {x: 0.30018923, y: 0.3793146}
   m_EdgeRadius: 0
 --- !u!1 &1887684983
 GameObject:
