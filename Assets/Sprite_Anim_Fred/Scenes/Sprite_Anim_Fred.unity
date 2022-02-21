@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 79460540}
   - component: {fileID: 79460542}
   - component: {fileID: 79460541}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,7 +154,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2031935092}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &79460541
 BoxCollider2D:
@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 268428119}
   - component: {fileID: 268428121}
   - component: {fileID: 268428120}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Platform (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -356,7 +356,7 @@ GameObject:
   - component: {fileID: 462694065}
   - component: {fileID: 462694067}
   - component: {fileID: 462694066}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -376,7 +376,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2031935092}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &462694066
 BoxCollider2D:
@@ -467,7 +467,7 @@ GameObject:
   - component: {fileID: 489323733}
   - component: {fileID: 489323735}
   - component: {fileID: 489323734}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Platform (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,7 +498,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 489323732}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 9365389eb52da46bc9e00fede5440ca6, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -645,7 +645,7 @@ GameObject:
   - component: {fileID: 824274298}
   - component: {fileID: 824274300}
   - component: {fileID: 824274299}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Platform (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -756,7 +756,7 @@ GameObject:
   - component: {fileID: 891549718}
   - component: {fileID: 891549720}
   - component: {fileID: 891549719}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Platform (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -867,7 +867,7 @@ GameObject:
   - component: {fileID: 922286077}
   - component: {fileID: 922286079}
   - component: {fileID: 922286078}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Platform (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -978,7 +978,7 @@ GameObject:
   - component: {fileID: 1152190352}
   - component: {fileID: 1152190354}
   - component: {fileID: 1152190353}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -998,7 +998,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2031935092}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1152190353
 BoxCollider2D:
@@ -1181,7 +1181,7 @@ GameObject:
   - component: {fileID: 1360447344}
   - component: {fileID: 1360447346}
   - component: {fileID: 1360447345}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Platform (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1292,7 +1292,7 @@ GameObject:
   - component: {fileID: 1611596899}
   - component: {fileID: 1611596901}
   - component: {fileID: 1611596900}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Platform (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1403,8 +1403,8 @@ GameObject:
   - component: {fileID: 1871997495}
   - component: {fileID: 1871997494}
   - component: {fileID: 1871997496}
-  - component: {fileID: 1871997498}
   - component: {fileID: 1871997497}
+  - component: {fileID: 1871997498}
   - component: {fileID: 1871997499}
   - component: {fileID: 1871997501}
   - component: {fileID: 1871997500}
@@ -1516,9 +1516,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a727bb2d03f63472d8190e2b2e727fd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1871997496}
   controller: {fileID: 1871997498}
-  runSpeed: 40
+  animator: {fileID: 1871997496}
+  runSpeed: 25
+  horizontalMove: 0
+  jump: 0
+  crouch: 0
 --- !u!114 &1871997498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1537,10 +1540,11 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 192
   m_GroundCheck: {fileID: 1278488517}
   m_CeilingCheck: {fileID: 2026277281}
   m_CrouchDisableCollider: {fileID: 0}
+  m_Grounded: 0
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1669,7 +1673,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.8704454, y: 1}
+    m_SensorSize: {x: 1.0350877, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1722,7 +1726,7 @@ GameObject:
   - component: {fileID: 1894467551}
   - component: {fileID: 1894467553}
   - component: {fileID: 1894467552}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Platform (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1927,7 +1931,7 @@ GameObject:
   - component: {fileID: 1990221895}
   - component: {fileID: 1990221894}
   - component: {fileID: 1990221896}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1999,7 +2003,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2031935092}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1990221896
 BoxCollider2D:
@@ -2038,7 +2042,7 @@ GameObject:
   - component: {fileID: 1994626345}
   - component: {fileID: 1994626347}
   - component: {fileID: 1994626346}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Platform (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2216,7 +2220,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2014400390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0046448708, y: 2.3318248, z: -10}
+  m_LocalPosition: {x: -0.0046486855, y: 2.3331366, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2297,7 +2301,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2031935092}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2316,10 +2320,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1990221895}
   - {fileID: 79460540}
   - {fileID: 1152190352}
   - {fileID: 462694065}
+  - {fileID: 1990221895}
   - {fileID: 1994626345}
   - {fileID: 489323733}
   - {fileID: 824274298}
