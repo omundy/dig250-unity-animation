@@ -7,6 +7,9 @@ using UnityEngine;
  *  https://craftgames.co/unity-2d-platformer-movement/
  */
 
+// Ensure this class has required components
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
 {
     [Header("Input")]
@@ -40,6 +43,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb2d;
 
+
     [Header("Display")]
 
     public Animator animator;
@@ -49,8 +53,17 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
+        // get components, stop game if not found
         rb2d = GetComponent<Rigidbody2D>();
-
+        animator = GetComponent<Animator>();
+        if (!rb2d || !animator)
+        {
+            Debug.LogError("Rigidbody2D and Animator required");
+            UnityEditor.EditorApplication.isPlaying = false;
+        }
+        // get child objects, stop game if not found
+        groundCheck = transform.Find("GroundCheck").gameObject.transform;
+        ceilingCheck = transform.Find("CeilingCheck").gameObject.transform;
         if (!groundCheck || !ceilingCheck)
         {
             Debug.LogError("GroundCheck and CeilingCheck required");
