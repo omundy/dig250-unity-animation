@@ -28,3 +28,10 @@ Scripts created using elements of the following:
 - Craft Games [Unity 2D Platformer Movement (Beginner Friendly Tutorial)](https://craftgames.co/unity-2d-platformer-movement/)
 - Sharp Coder [Unity 2D Character Controller](https://sharpcoderblog.com/blog/2d-platformer-character-controller)
 - Benjamin Dendas [How to create a simple Character Controller for a 2D Unity project](https://medium.com/@benjamindendas/how-to-create-a-simple-character-controller-for-a-2d-unity-project-334221b6ecf3) and [code](https://github.com/BenjaminDendas/mini2d)
+
+
+
+## Video_Player
+
+- Example showing how to play a video in both UI (Canvas) and world space.
+- See this video for a walk through: [Title Screen Animation in After Effects & Unity](https://youtu.be/TB9Rrq60t5E?t=1268)
