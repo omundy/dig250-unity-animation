@@ -47,3 +47,27 @@ TagManager:
   - name: Characters
     uniqueID: 300750117
     locked: 0
+  - name: Parallax_B_5
+    uniqueID: 3811989771
+    locked: 0
+  - name: Parallax_B_4
+    uniqueID: 2068994707
+    locked: 0
+  - name: Parallax_B_3
+    uniqueID: 3602486171
+    locked: 0
+  - name: Parallax_B_2
+    uniqueID: 2698290439
+    locked: 0
+  - name: Parallax_B_1
+    uniqueID: 1191985557
+    locked: 0
+  - name: Parallax_0
+    uniqueID: 3366292683
+    locked: 0
+  - name: Parallax_F_1
+    uniqueID: 4142605571
+    locked: 0
+  - name: Parallax_F_2
+    uniqueID: 3628284035
+    locked: 0
