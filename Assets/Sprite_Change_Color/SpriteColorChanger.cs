@@ -8,7 +8,7 @@ using UnityEngine;
  *  1. Attach to all sprites that will be changed
  *  2. Add a 2D collider (set to trigger) to each colorchange sprite
  *  3. Set the new color only
- *  4. Add tags to all power ups and color changes
+ *  4. Add tags: PowerUp and ColorChanger
  */
 
 public class SpriteColorChanger : MonoBehaviour
@@ -19,7 +19,7 @@ public class SpriteColorChanger : MonoBehaviour
     public Color originalColor;
     public Color newColor;
 
-    [Tooltip("Number of power ups required to change this one")]
+    [Tooltip("Number of power ups required to change this sprite")]
     public int powerUpsRequired = 1;
 
     private void Awake()
@@ -29,10 +29,9 @@ public class SpriteColorChanger : MonoBehaviour
         originalColor = spriteRenderer.color;
     }
 
-
-
     public void ChangeColor()
     {
+        // change the color on the sprite
         spriteRenderer.color = newColor;
     }
 
