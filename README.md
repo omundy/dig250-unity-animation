@@ -1,5 +1,5 @@
 
-# Unity Animation Examples
+# dig250-unity-animation
 
 
 A sample Unity (2021.2.7f1) project that shows
