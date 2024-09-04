@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -47,6 +49,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -87,8 +90,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData:
   - name: 'Common Power of Two (Po2) Dimensions for Game Art  '
     originalName: 
@@ -98,7 +101,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 2060
+      y: 4
       width: 434
       height: 75
     spriteID: bc732475e93fa472ca48294a578771fa
@@ -109,29 +112,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -1587, y: 112}
-  - name: shapes
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 2048
-      height: 2048
-    spriteID: dcdb4400e29bc4124bf5df336d153843
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 1591, y: 1948}
   rigSpriteImportData:
   - name: 1282
     originalName: 
@@ -152,8 +134,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 3632, y: 2044}
+    spritePosition: {x: 0, y: 0}
   - name: 2048 x 1024
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -173,8 +155,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 3047, y: 3709}
+    spritePosition: {x: 0, y: 0}
   - name: 1024 x 512
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -194,8 +176,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 2763, y: 2391}
+    spritePosition: {x: 0, y: 0}
   - name: 1024 x 2048
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -215,8 +197,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 2022, y: 2734}
+    spritePosition: {x: 0, y: 0}
   - name: 512 x 1024
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -236,8 +218,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 3547, y: 2767}
+    spritePosition: {x: 0, y: 0}
   - name: 256 x 512
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -257,8 +239,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 3675, y: 2391}
+    spritePosition: {x: 0, y: 0}
   - name: 2562
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -278,8 +260,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 3441, y: 2171}
+    spritePosition: {x: 0, y: 0}
   - name: 20482
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -299,8 +281,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 2067, y: 3585}
+    spritePosition: {x: 0, y: 0}
   - name: 10242
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -320,8 +302,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 3086, y: 2600}
+    spritePosition: {x: 0, y: 0}
   - name: 5122
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -341,8 +323,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 3591, y: 2114}
+    spritePosition: {x: 0, y: 0}
   - name: 'Common Power of Two (Po2) Dimensions for Game Art '
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -362,8 +344,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 2021, y: 1928}
+    spritePosition: {x: 0, y: 0}
   - name: 128x128
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -383,8 +365,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 3876, y: 1692}
+    spritePosition: {x: 0, y: 0}
   - name: 256x256
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -404,8 +386,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 3612, y: 1820}
+    spritePosition: {x: 0, y: 0}
   - name: 256x512
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -425,8 +407,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 3092, y: 1820}
+    spritePosition: {x: 0, y: 0}
   - name: 512x256
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -446,8 +428,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 3612, y: 1556}
+    spritePosition: {x: 0, y: 0}
   - name: 512x512
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -467,8 +449,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 3092, y: 1556}
+    spritePosition: {x: 0, y: 0}
   - name: 1024x512
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -488,8 +470,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 2060, y: 1556}
+    spritePosition: {x: 0, y: 0}
   - name: 512x1024
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -509,8 +491,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 3092, y: 1036}
+    spritePosition: {x: 0, y: 0}
   - name: 1024x1024
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -530,8 +512,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 2060, y: 1036}
+    spritePosition: {x: 0, y: 0}
   - name: 2048x1024
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -551,8 +533,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 4, y: 1036}
+    spritePosition: {x: 0, y: 0}
   - name: 1024x2048
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -572,8 +554,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 2060, y: 4}
+    spritePosition: {x: 0, y: 0}
   - name: 2048x2048
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -593,13 +575,14 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
+    pivot: {x: 0, y: 0}
     boneReadOnly: 0
   sharedRigSpriteImportData: []
   sharedRigCharacterData:
@@ -607,10 +590,12 @@ ScriptedImporter:
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
+    pivot: {x: 0, y: 0}
     boneReadOnly: 0
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -622,6 +607,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: Standalone
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -633,6 +619,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: Server
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -652,6 +639,10 @@ ScriptedImporter:
   paperDollMode: 0
   keepDupilcateSpriteName: 1
   skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  padding: 4
+  spriteSizeExpand: 0
   spriteCategoryList:
     categories: []
   spritePackingTag: 
@@ -663,7 +654,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: bc732475e93fa472ca48294a578771fa
     layerID: 20
-    mosaicPosition: {x: 4, y: 2060}
+    mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -805,7 +796,7 @@ ScriptedImporter:
     layerID: 18
     mosaicPosition: {x: 4, y: 4}
     flatten: 1
-    isImported: 1
+    isImported: 0
     isVisible: 1
   - name: Only Common As Icons
     spriteName: 
@@ -1560,54 +1551,81 @@ ScriptedImporter:
     isVisible: 1
   sharedRigPSDLayers: []
   pSDLayerImportSetting:
-  - name: 128x128
+  - spriteId: 85c63b7463ef043eea3dbfff1ef86eef
+    name: 128x128
     layerId: 49
     flatten: 1
     isGroup: 1
-  - name: 256x256
+    importLayer: 0
+  - spriteId: b8d304d9abec54a8e9fe68a3b8c5f5bd
+    name: 256x256
     layerId: 55
     flatten: 1
     isGroup: 1
-  - name: 256x512
+    importLayer: 0
+  - spriteId: 161bcc4702aa34ccda104a4ebfa23443
+    name: 256x512
     layerId: 53
     flatten: 1
     isGroup: 1
-  - name: 512x256
+    importLayer: 0
+  - spriteId: 6d16b43607f0d4220ad5688f9717568a
+    name: 512x256
     layerId: 69
     flatten: 1
     isGroup: 1
-  - name: 512x512
+    importLayer: 0
+  - spriteId: cf9dd8b2fc9194cca9c27ec50b6dad1c
+    name: 512x512
     layerId: 51
     flatten: 1
     isGroup: 1
-  - name: 1024x512
+    importLayer: 0
+  - spriteId: 657ef5bd61be7419195969382b5faaad
+    name: 1024x512
     layerId: 59
     flatten: 1
     isGroup: 1
-  - name: 512x1024
+    importLayer: 0
+  - spriteId: 80b9a5eafbb3946d283a0e3ca11f4920
+    name: 512x1024
     layerId: 57
     flatten: 1
     isGroup: 1
-  - name: 1024x1024
+    importLayer: 0
+  - spriteId: 887a2f89c23af49e8ada7fb0dba80117
+    name: 1024x1024
     layerId: 61
     flatten: 1
     isGroup: 1
-  - name: 2048x1024
+    importLayer: 0
+  - spriteId: fc3e3cefbecde4f92be96ce24e656ba7
+    name: 2048x1024
     layerId: 67
     flatten: 1
     isGroup: 1
-  - name: 1024x2048
+    importLayer: 0
+  - spriteId: 238b246e59a214644a26cf7520882dba
+    name: 1024x2048
     layerId: 65
     flatten: 1
     isGroup: 1
-  - name: 2048x2048
+    importLayer: 0
+  - spriteId: fa4bca5b650254b45bcd575023b5ed0b
+    name: 2048x2048
     layerId: 63
     flatten: 1
     isGroup: 1
-  - name: shapes
+    importLayer: 0
+  - spriteId: dcdb4400e29bc4124bf5df336d153843
+    name: shapes
     layerId: 18
     flatten: 1
     isGroup: 1
+    importLayer: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
   generateGOHierarchy: 0
   textureAssetName: 
   prefabAssetName: 
