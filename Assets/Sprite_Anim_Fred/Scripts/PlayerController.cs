@@ -1,13 +1,13 @@
 using System;
 using UnityEngine;
 
-/**
- *  Basic 2D platformer controller using
- *  https://www.youtube.com/playlist?list=PLPV2KyIb3jR6TFcFuzI2bB7TMNIIBpKMQ
- *  https://craftgames.co/unity-2d-platformer-movement/
- */
+/// Basic 2D platformer character controller
+/// 2022 Owen Mundy
+/// Based on Brackeys "2D Movement in Unity (Tutorial)"
+/// https://www.youtube.com/watch?v=dwcT-Dch0bA&list=PLPV2KyIb3jR6TFcFuzI2bB7TMNIIBpKMQ&index=2&t=1008s
 
-// Ensure this class has required components
+
+// Ensure required components are also added to Game Object
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
     // horizontal movement speed and direction
     public Vector2 playerInput;
+	
     // boolean to detect / test jump input
     [SerializeField] bool jumpPress = false;
     [SerializeField] bool jumpHold = false;
@@ -61,6 +62,7 @@ public class PlayerController : MonoBehaviour
             Debug.LogError("Rigidbody2D and Animator required");
             UnityEditor.EditorApplication.isPlaying = false;
         }
+		
         // get child objects, stop game if not found
         groundCheck = transform.Find("GroundCheck").gameObject.transform;
         ceilingCheck = transform.Find("CeilingCheck").gameObject.transform;
