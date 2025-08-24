@@ -18,7 +18,6 @@ A sample Unity (2021.2.7f1) project that shows
 
 Basic sprite animation and character controller
 
-Artwork credit: [pixeldudesmaker generator](https://0x72.itch.io/pixeldudesmaker) by [0x72](https://0x72.itch.io/)
 
 Scripts created using elements of the following:
 - Brackeys [How to make a 2D Game series](https://www.youtube.com/playlist?list=PLPV2KyIb3jR6TFcFuzI2bB7TMNIIBpKMQ):
@@ -28,12 +27,13 @@ Scripts created using elements of the following:
 - Craft Games [Unity 2D Platformer Movement (Beginner Friendly Tutorial)](https://craftgames.co/unity-2d-platformer-movement/)
 - Sharp Coder [Unity 2D Character Controller](https://sharpcoderblog.com/blog/2d-platformer-character-controller)
 - Benjamin Dendas [How to create a simple Character Controller for a 2D Unity project](https://medium.com/@benjamindendas/how-to-create-a-simple-character-controller-for-a-2d-unity-project-334221b6ecf3) and [code](https://github.com/BenjaminDendas/mini2d)
+- Artwork credit: [pixeldudesmaker generator](https://0x72.itch.io/pixeldudesmaker) by [0x72](https://0x72.itch.io/)
 
 
 
 ## Sprite_Anim_AdobeAnimate
 
-![hello](Assets/Sprite_Anim_AdobeAnimate/screenshot.png)
+![hello](Assets/Sprite_Anim_AdobeAnimate_Bilbo/screenshot.png)
 
 - Playable character from Adobe Animate (Flash) animation
 
