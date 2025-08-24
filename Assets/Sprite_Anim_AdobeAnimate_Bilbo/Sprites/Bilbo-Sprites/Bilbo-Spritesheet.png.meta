@@ -1,0 +1,952 @@
+fileFormatVersion: 2
+guid: fca1ac2f36c4247b4bbc11fb73e09dcf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1656
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0b01992dfe94c24b1ffe8ed17093d7
+      internalID: 652298517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1656
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4decd8d398444cf6b0f0560df59b45b
+      internalID: 1058204061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1656
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf4a801a69c64298bf23a77183ff45d
+      internalID: 1990300335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1656
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac53518fa38b74d48bc331b977793fd0
+      internalID: -1845958975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 1656
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e48da5b177e4774acf4a9baae57705
+      internalID: -1675594873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 1656
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5113da11d214ffdb7d2faaf3e21cda
+      internalID: 1094656109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 1656
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b282761f0f88a40e5a37db7b980036e2
+      internalID: -204877331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1264
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccd448e858444ed6a5b02616bb88175
+      internalID: -614024170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1264
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27152083ae9a4937bbd87113c64a34c
+      internalID: 1389226988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1264
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33e6b54920a14cf583b2e8543d3ccf1
+      internalID: 2066700960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1264
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a25716bd3106447b8f6e5a77ca393ad
+      internalID: -1834892329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 1264
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b0e80826b1840529ef27b9dd69056c
+      internalID: 1140478619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 1264
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c9d102ffa014f60a1c8681a4b72a58
+      internalID: 328558734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 1264
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2187b23bfac64a77bf2e8a577189d59
+      internalID: -1798528111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 872
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77abcea32e6a4404b9dfdc6c46017a5a
+      internalID: -8892526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 872
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6549b8fc17347e9bbbe38009bb01e2
+      internalID: 333276744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 872
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633768225c1244e8b8a9edcf5955d629
+      internalID: 1197141553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 872
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d42df27b328042c6aa8c137a77b3c9b
+      internalID: -207116233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 872
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112b2f59f40a047f89ca8b101cf9cc98
+      internalID: 1722853387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 872
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05733278766f1430d85ae739c85248ce
+      internalID: 72613058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 872
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704d93453864a4475959ff01c236157b
+      internalID: -2072972379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0337f77dba5e94546b004a7e615b6cab
+      internalID: -1127714941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 480
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da34f9c45ed0942799c8a9fd4bfac519
+      internalID: 1764371157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 480
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96496c07c6a34942be01971a517d9e2
+      internalID: 222685656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 480
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8165550d7224480284dbfa6ff035c2c
+      internalID: 583395420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 480
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378595343ad9c4f7ea37abf56cc02092
+      internalID: 717224836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 480
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bd4c7d496de4ac3bac073b060fae2f
+      internalID: 376998698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 480
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d645d2304ae14cf5b939bd23d00f826
+      internalID: 683601502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21b80429afd549b2b81aba805a113ca
+      internalID: -147338685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 88
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84eb9b4ab784460481ec5cc4ccaabe4
+      internalID: -1655471095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 88
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e25d8685d8b242748e25d71cefef69a
+      internalID: 1770909323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 88
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a57fcc97ff3c4a5cb95e5e0e4be8a1e
+      internalID: -2121336858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 88
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c182a531ba524c9383e09d92f93c2cb
+      internalID: 1730272722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 88
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d9e00b244c54692ac4fec7256a9574
+      internalID: -1617176460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bilbo-Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 88
+        width: 584
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8332c7d6f144423aac6146aa561efae
+      internalID: 1436169752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: da0c439b5fb38439c91cd8415b1ab9b4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":584.0,"y":392.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: False
+    nameFileIdTable:
+      Bilbo-Spritesheet_0: 652298517
+      Bilbo-Spritesheet_1: 1058204061
+      Bilbo-Spritesheet_10: -1834892329
+      Bilbo-Spritesheet_11: 1140478619
+      Bilbo-Spritesheet_12: 328558734
+      Bilbo-Spritesheet_13: -1798528111
+      Bilbo-Spritesheet_14: -8892526
+      Bilbo-Spritesheet_15: 333276744
+      Bilbo-Spritesheet_16: 1197141553
+      Bilbo-Spritesheet_17: -207116233
+      Bilbo-Spritesheet_18: 1722853387
+      Bilbo-Spritesheet_19: 72613058
+      Bilbo-Spritesheet_2: 1990300335
+      Bilbo-Spritesheet_20: -2072972379
+      Bilbo-Spritesheet_21: -1127714941
+      Bilbo-Spritesheet_22: 1764371157
+      Bilbo-Spritesheet_23: 222685656
+      Bilbo-Spritesheet_24: 583395420
+      Bilbo-Spritesheet_25: 717224836
+      Bilbo-Spritesheet_26: 376998698
+      Bilbo-Spritesheet_27: 683601502
+      Bilbo-Spritesheet_28: -147338685
+      Bilbo-Spritesheet_29: -1655471095
+      Bilbo-Spritesheet_3: -1845958975
+      Bilbo-Spritesheet_30: 1770909323
+      Bilbo-Spritesheet_31: -2121336858
+      Bilbo-Spritesheet_32: 1730272722
+      Bilbo-Spritesheet_33: -1617176460
+      Bilbo-Spritesheet_34: 1436169752
+      Bilbo-Spritesheet_4: -1675594873
+      Bilbo-Spritesheet_5: 1094656109
+      Bilbo-Spritesheet_6: -204877331
+      Bilbo-Spritesheet_7: -614024170
+      Bilbo-Spritesheet_8: 1389226988
+      Bilbo-Spritesheet_9: 2066700960
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

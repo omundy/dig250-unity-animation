@@ -31,6 +31,15 @@ Scripts created using elements of the following:
 
 
 
+## Sprite_Anim_AdobeAnimate
+
+![hello](Assets/Sprite_Anim_AdobeAnimate/screenshot.png)
+
+- Playable character from Adobe Animate (Flash) animation
+
+
+
+
 ## Video_Player
 
 - Example showing how to play a video in both UI (Canvas) and world space.
