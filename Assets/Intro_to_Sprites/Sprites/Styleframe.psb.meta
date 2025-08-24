@@ -70,12 +70,13 @@ ScriptedImporter:
     compressionQualitySet: 0
     textureFormatSet: 0
     applyGammaDecoding: 0
-  spriteImportData:
+  singleSpriteImportData:
   - name: 
     originalName: 
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -92,12 +93,14 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
     spritePosition: {x: 0, y: 0}
-  mosaicSpriteImportData:
+  multiSpriteImportData: []
+  layeredSpriteImportData:
   - name: Oak Leaf 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 3587
@@ -119,6 +122,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 3846
@@ -140,6 +144,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 2690
@@ -161,6 +166,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 3173
@@ -182,6 +188,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 2060
@@ -203,6 +210,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 3587
@@ -224,6 +232,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 3587
@@ -245,6 +254,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 3846
@@ -266,6 +276,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 3846
@@ -287,6 +298,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -308,6 +320,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -329,6 +342,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 2060
@@ -350,6 +364,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -371,6 +386,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -392,6 +408,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -408,12 +425,36 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
     spritePosition: {x: 0, y: 0}
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   rigSpriteImportData:
   - name: eye insides
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 2588
@@ -435,6 +476,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 2482
@@ -456,6 +498,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 2249
@@ -477,6 +520,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 2060
@@ -498,6 +542,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -519,6 +564,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -540,6 +586,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -561,6 +608,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -577,21 +625,338 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 2060}
     spritePosition: {x: 0, y: 0}
-  characterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    pivot: {x: 0, y: 0}
-    boneReadOnly: 0
   sharedRigSpriteImportData: []
-  sharedRigCharacterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    pivot: {x: 0, y: 0}
-    boneReadOnly: 0
+  mosaicSpriteImportData:
+  - name: Oak Leaf 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 3587
+      y: 7412
+      width: 251
+      height: 411
+    spriteID: 6c8d79f239a4d4a00b508c6596dd719b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3575, y: 7411}
+    spritePosition: {x: 105, y: 525}
+  - name: Chestnut Leaf 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 3846
+      y: 7412
+      width: 181
+      height: 433
+    spriteID: 30c4746f9882c42389b04fc37be7eb9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3760, y: 7411}
+    spritePosition: {x: 430, y: 531}
+  - name: Maple Leaf 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 2690
+      y: 7412
+      width: 475
+      height: 446
+    spriteID: 86b9e09eb481b47cb95763c4d2efd8bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2689, y: 7410}
+    spritePosition: {x: 686, y: 525}
+  - name: Sycamore Leaf 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 3173
+      y: 7412
+      width: 406
+      height: 402
+    spriteID: 2bc422add45434e6b837c359fcc3e1fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3172, y: 7411}
+    spritePosition: {x: 1237, y: 535}
+  - name: Ash Leaf 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 2060
+      y: 5841
+      width: 206
+      height: 379
+    spriteID: 2e9e6baa9f0b64fe39a197c9e9788f0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2059, y: 5839}
+    spritePosition: {x: 1718, y: 525}
+  - name: eye insides
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 3587
+      y: 7891
+      width: 93
+      height: 48
+    spriteID: 78925258192a84008b8c659f56846328
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3584, y: 7888}
+    spritePosition: {x: 352, y: 366}
+  - name: eyes
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 3587
+      y: 7831
+      width: 98
+      height: 52
+    spriteID: 58c5150b1c32f4ef09d5823ce304c2ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3584, y: 7828}
+    spritePosition: {x: 350, y: 366}
+  - name: hat
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 3846
+      y: 8077
+      width: 225
+      height: 96
+    spriteID: d6843e47d5c2d4ca3bc6075536895795
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3845, y: 8076}
+    spritePosition: {x: 243, y: 335}
+  - name: body
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 3846
+      y: 7853
+      width: 181
+      height: 216
+    spriteID: 10ae06ce763444831a711c978a0072a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 3845, y: 7852}
+    spritePosition: {x: 267, y: 151}
+  - name: ground
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 7412
+      width: 2048
+      height: 431
+    spriteID: c213df96362bb4e15bbff623525f08ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 7412}
+    spritePosition: {x: 0, y: 0}
+  - name: mountain
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5841
+      width: 2048
+      height: 1563
+    spriteID: eb29e55d233654d2ca0077f40b446dfc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 5838}
+    spritePosition: {x: 0, y: 229}
+  - name: Shape 170 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 2060
+      y: 7412
+      width: 622
+      height: 587
+    spriteID: a915d64b38732455cb6ce410d22696c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2059, y: 7411}
+    spritePosition: {x: 819, y: 939}
+  - name: Gradient Fill 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3951
+      width: 2048
+      height: 1882
+    spriteID: 5c7162c241956483d93f583cb6cb12d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3951}
+    spritePosition: {x: 0, y: 0}
+  - name: Gradient Fill 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2060
+      width: 2048
+      height: 1883
+    spriteID: ba783a5c85c87457ea283f41f5c2e172
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1895}
+    spritePosition: {x: 0, y: 165}
+  - name: sky
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 2048
+      height: 2048
+    spriteID: c03b9e2bb8a8841efabee230cf026c15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -638,15 +1003,193 @@ ScriptedImporter:
   generatePhysicsShape: 0
   paperDollMode: 0
   keepDupilcateSpriteName: 1
+  generateTileAssets: 0
+  tilePaletteCellLayout: 0
+  tilePaletteHexagonLayout: 0
+  tilePaletteCellSize: {x: 1, y: 1, z: 0}
+  tilePaletteCellSizing: 0
+  transparencySortMode: 0
+  transparencySortAxis: {x: 0, y: 0, z: 1}
+  tileTemplate: {instanceID: 0}
+  padding: 4
+  spriteSizeExpand: 0
   skeletonAssetReferenceID: 
   pipeline: {instanceID: 0}
   pipelineVersion: 
-  padding: 4
-  spriteSizeExpand: 0
-  spriteCategoryList:
-    categories: []
   spritePackingTag: 
   resliceFromLayer: 0
+  pSDLayerImportSetting: []
+  psdLayers:
+  - name: Leaves
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 043b0c3ae4b7644fc96f25ab3e7ce6e5
+    layerID: 29
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Oak Leaf 1
+    spriteName: Oak Leaf 1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 6c8d79f239a4d4a00b508c6596dd719b
+    layerID: 22
+    mosaicPosition: {x: 3587, y: 7412}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Chestnut Leaf 1
+    spriteName: Chestnut Leaf 1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 30c4746f9882c42389b04fc37be7eb9a
+    layerID: 18
+    mosaicPosition: {x: 3846, y: 7412}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Maple Leaf 1
+    spriteName: Maple Leaf 1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 86b9e09eb481b47cb95763c4d2efd8bf
+    layerID: 19
+    mosaicPosition: {x: 2690, y: 7412}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Sycamore Leaf 1
+    spriteName: Sycamore Leaf 1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2bc422add45434e6b837c359fcc3e1fe
+    layerID: 20
+    mosaicPosition: {x: 3173, y: 7412}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ash Leaf 1
+    spriteName: Ash Leaf 1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2e9e6baa9f0b64fe39a197c9e9788f0d
+    layerID: 21
+    mosaicPosition: {x: 2060, y: 5841}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Franz
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: c4ca1d677ca784e57a76efaa996cfeb2
+    layerID: 10
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: eye insides
+    spriteName: eye insides
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 78925258192a84008b8c659f56846328
+    layerID: 8
+    mosaicPosition: {x: 3587, y: 7891}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: eyes
+    spriteName: eyes
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 58c5150b1c32f4ef09d5823ce304c2ec
+    layerID: 7
+    mosaicPosition: {x: 3587, y: 7831}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: hat
+    spriteName: hat
+    isGroup: 0
+    parentIndex: 6
+    spriteID: d6843e47d5c2d4ca3bc6075536895795
+    layerID: 4
+    mosaicPosition: {x: 3846, y: 8077}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: body
+    spriteName: body
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 10ae06ce763444831a711c978a0072a5
+    layerID: 3
+    mosaicPosition: {x: 3846, y: 7853}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ground
+    spriteName: ground
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c213df96362bb4e15bbff623525f08ab
+    layerID: 9
+    mosaicPosition: {x: 4, y: 7412}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: mountain
+    spriteName: mountain
+    isGroup: 0
+    parentIndex: -1
+    spriteID: eb29e55d233654d2ca0077f40b446dfc
+    layerID: 2
+    mosaicPosition: {x: 4, y: 5841}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shape 170 1
+    spriteName: Shape 170 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a915d64b38732455cb6ce410d22696c3
+    layerID: 27
+    mosaicPosition: {x: 2060, y: 7412}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Gradient Fill 1 copy
+    spriteName: Gradient Fill 1 copy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5c7162c241956483d93f583cb6cb12d6
+    layerID: 16
+    mosaicPosition: {x: 4, y: 3951}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Gradient Fill 1
+    spriteName: Gradient Fill 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ba783a5c85c87457ea283f41f5c2e172
+    layerID: 15
+    mosaicPosition: {x: 4, y: 2060}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: sky
+    spriteName: sky
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c03b9e2bb8a8841efabee230cf026c15
+    layerID: 13
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   mosaicPSDLayers:
   - name: Leaves
     spriteName: 
@@ -910,7 +1453,6 @@ ScriptedImporter:
     isImported: 1
     isVisible: 1
   sharedRigPSDLayers: []
-  pSDLayerImportSetting: []
   importFileNodeState: 1
   platformSettingsDirtyTick: 0
   spriteSizeExpandChanged: 0

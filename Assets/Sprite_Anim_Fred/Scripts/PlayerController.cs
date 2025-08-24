@@ -99,9 +99,9 @@ public class PlayerController : MonoBehaviour
         if (isGrounded || airControl)
         {
             // Move the character by finding the target velocity
-            Vector3 targetVelocity = new Vector2(move * 10f, rb2d.velocity.y);
+            Vector3 targetVelocity = new Vector2(move * 10f, rb2d.linearVelocity.y);
             // And then smoothing it out and applying it to the character
-            rb2d.velocity = Vector3.SmoothDamp(rb2d.velocity, targetVelocity, ref velocity, movementSmoothing);
+            rb2d.linearVelocity = Vector3.SmoothDamp(rb2d.linearVelocity, targetVelocity, ref velocity, movementSmoothing);
 
             // If the input is moving the player right and the player is facing left...
             if ((move > 0 && !facingRight) || (move < 0 && facingRight))
@@ -122,7 +122,7 @@ public class PlayerController : MonoBehaviour
 
             // Add a vertical force to the player 
             // => craftgames version: e.g. jumpForce = 6, rb2d.gravityScale = 1
-            rb2d.velocity = new Vector2(rb2d.velocity.x, jumpForce);
+            rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x, jumpForce);
 
             // reset for late jump
             lastTimeGrounded = Time.time;
@@ -135,14 +135,14 @@ public class PlayerController : MonoBehaviour
     void BetterJump()
     {
         // slow down velocity for all
-        if (rb2d.velocity.y < 0)
+        if (rb2d.linearVelocity.y < 0)
         {
-            rb2d.velocity += Vector2.up * Physics2D.gravity * (fallMultiplier - 1) * Time.deltaTime;
+            rb2d.linearVelocity += Vector2.up * Physics2D.gravity * (fallMultiplier - 1) * Time.deltaTime;
         }
         // slow up velocity if they release early
-        else if (rb2d.velocity.y > 0 && !jumpHold)
+        else if (rb2d.linearVelocity.y > 0 && !jumpHold)
         {
-            rb2d.velocity += Vector2.up * Physics2D.gravity * (lowJumpMultiplier - 1) * Time.deltaTime;
+            rb2d.linearVelocity += Vector2.up * Physics2D.gravity * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
     }
 

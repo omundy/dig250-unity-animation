@@ -70,12 +70,13 @@ ScriptedImporter:
     compressionQualitySet: 0
     textureFormatSet: 0
     applyGammaDecoding: 0
-  spriteImportData:
+  singleSpriteImportData:
   - name: 
     originalName: 
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -92,12 +93,14 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
     spritePosition: {x: 0, y: 0}
-  mosaicSpriteImportData:
+  multiSpriteImportData: []
+  layeredSpriteImportData:
   - name: Player
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 15693
@@ -119,6 +122,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 9783
@@ -149,6 +153,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 12842
@@ -181,6 +186,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -207,6 +213,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 8204
@@ -228,6 +235,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 12842
@@ -249,6 +257,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 9783
@@ -270,6 +279,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 10703
@@ -291,6 +301,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 8204
@@ -312,6 +323,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 8204
@@ -333,6 +345,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -354,6 +367,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -370,12 +384,36 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
     spritePosition: {x: 0, y: 0}
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   rigSpriteImportData:
   - name: Player
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 15698
@@ -397,6 +435,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 12366
@@ -418,6 +457,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 10343
@@ -439,6 +479,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -460,6 +501,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 8204
@@ -481,6 +523,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 10343
@@ -502,6 +545,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 14158
@@ -523,6 +567,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 8204
@@ -544,6 +589,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 8204
@@ -565,6 +611,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 13434
@@ -586,6 +633,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -607,6 +655,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -623,21 +672,297 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
     spritePosition: {x: 0, y: 0}
-  characterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    pivot: {x: 0, y: 0}
-    boneReadOnly: 0
   sharedRigSpriteImportData: []
-  sharedRigCharacterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
-    pivot: {x: 0, y: 0}
-    boneReadOnly: 0
+  mosaicSpriteImportData:
+  - name: Player
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 15693
+      y: 3862
+      width: 518
+      height: 705
+    spriteID: 6714e0412a3884356bff388c20859e7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 15693, y: 3862}
+    spritePosition: {x: 1510, y: 897}
+  - name: AdamSpychala
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 9783
+      y: 2060
+      width: 1784
+      height: 848
+    spriteID: fd463c538cc7e469fb8a3d0243a83c62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -671, y: 179}
+      - {x: -786, y: 46}
+      - {x: -875, y: 32}
+      - {x: -889, y: -144}
+      - {x: -753, y: -424}
+      - {x: 892, y: -424}
+      - {x: 876, y: 43}
+      - {x: 314, y: 424}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 9783, y: 2060}
+    spritePosition: {x: 1440, y: 243}
+  - name: RPArquitectos
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 12842
+      y: 3862
+      width: 2843
+      height: 730
+    spriteID: f7fd8f56b89ed41d7b8c03f3e9e94e30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -1421.5, y: -338}
+      - {x: 1421.5, y: -362}
+      - {x: 1421.5, y: -183}
+      - {x: 1370.5, y: -183}
+      - {x: 1369.5, y: -33}
+      - {x: 1016.5, y: -34}
+      - {x: 1018.5, y: 365}
+      - {x: -925.5, y: 364}
+      - {x: -922.5, y: -97}
+      - {x: -1421.5, y: -90}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 12842, y: 3862}
+    spritePosition: {x: 4321, y: 308}
+  - name: Ground
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2060
+      width: 8192
+      height: 1794
+    spriteID: cd15c05c1ce124e8d82efbfda403e787
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: -4096, y: -498}
+      - {x: -4096, y: -896}
+      - {x: 4096, y: -896}
+      - {x: 4096, y: -504}
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2060}
+    spritePosition: {x: 0, y: 0}
+  - name: Cali Avant-garde Architects - FRONT
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 8204
+      y: 4983
+      width: 1693
+      height: 584
+    spriteID: 2caba33256e904051948bd3e83a767bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 8204, y: 4983}
+    spritePosition: {x: 76, y: 557}
+  - name: "Adam Spycha\u0142a (beach)"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 12842
+      y: 4600
+      width: 2015
+      height: 769
+    spriteID: ae76508af98fe427c8003bff259ca007
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 12842, y: 4600}
+    spritePosition: {x: 2675, y: 255}
+  - name: Cali Avant-garde Architects - SIDE
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 9783
+      y: 2916
+      width: 1532
+      height: 876
+    spriteID: 890eeeb264f3d450b93aeceac750842e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 9783, y: 2916}
+    spritePosition: {x: 2396, y: 504}
+  - name: Querkopf Architekten
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 10703
+      y: 3862
+      width: 2131
+      height: 1124
+    spriteID: c924f199c0ec44971aae89fa1e610156
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 10703, y: 3862}
+    spritePosition: {x: 5878, y: 565}
+  - name: NYTimesUnexpectedly Tropical History of Brutalism
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 8204
+      y: 2060
+      width: 1571
+      height: 1116
+    spriteID: 99fe3c1977ddd4094b6d1b42089251fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 8204, y: 2060}
+    spritePosition: {x: 432, y: 599}
+  - name: "Adam Spycha\u0142a (rocks)"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 8204
+      y: 3862
+      width: 2491
+      height: 1113
+    spriteID: 3f1bc41679794438c9fcf3f2d1235e29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 8204, y: 3862}
+    spritePosition: {x: 3196, y: 897}
+  - name: Mountains
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3862
+      width: 8192
+      height: 1715
+    spriteID: dc566acf5680040e1993f874ef0bc325
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3862}
+    spritePosition: {x: 0, y: 0}
+  - name: Sky
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 8192
+      height: 2048
+    spriteID: 4a2845b92062b4b4aafaf70e0917cb00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -708,15 +1033,213 @@ ScriptedImporter:
   generatePhysicsShape: 0
   paperDollMode: 0
   keepDupilcateSpriteName: 1
+  generateTileAssets: 0
+  tilePaletteCellLayout: 0
+  tilePaletteHexagonLayout: 0
+  tilePaletteCellSize: {x: 1, y: 1, z: 0}
+  tilePaletteCellSizing: 0
+  transparencySortMode: 0
+  transparencySortAxis: {x: 0, y: 0, z: 1}
+  tileTemplate: {instanceID: 0}
+  padding: 4
+  spriteSizeExpand: 0
   skeletonAssetReferenceID: 
   pipeline: {instanceID: 0}
   pipelineVersion: 
-  padding: 4
-  spriteSizeExpand: 0
-  spriteCategoryList:
-    categories: []
   spritePackingTag: 
   resliceFromLayer: 1
+  pSDLayerImportSetting: []
+  psdLayers:
+  - name: Parallax_F_1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: dcdccf9693e5f4b9eb2e1e747ed71eb1
+    layerID: 52
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Parallax_0
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: bf0d2fbb6dd1b4c948366ecb7af9d0d5
+    layerID: 45
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Player
+    spriteName: Player
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 6714e0412a3884356bff388c20859e7e
+    layerID: 26
+    mosaicPosition: {x: 15693, y: 3862}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: AdamSpychala
+    spriteName: AdamSpychala
+    isGroup: 0
+    parentIndex: 1
+    spriteID: fd463c538cc7e469fb8a3d0243a83c62
+    layerID: 38
+    mosaicPosition: {x: 9783, y: 2060}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: RPArquitectos
+    spriteName: RPArquitectos
+    isGroup: 0
+    parentIndex: 1
+    spriteID: f7fd8f56b89ed41d7b8c03f3e9e94e30
+    layerID: 29
+    mosaicPosition: {x: 12842, y: 3862}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ground
+    spriteName: Ground
+    isGroup: 0
+    parentIndex: 1
+    spriteID: cd15c05c1ce124e8d82efbfda403e787
+    layerID: 28
+    mosaicPosition: {x: 4, y: 2060}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Parallax_B_1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 3c8ba1be192b74d56b14093792c1a8cb
+    layerID: 43
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Cali Avant-garde Architects - FRONT
+    spriteName: Cali Avant-garde Architects - FRONT
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 2caba33256e904051948bd3e83a767bf
+    layerID: 2
+    mosaicPosition: {x: 8204, y: 4983}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "Adam Spycha\u0142a (beach)"
+    spriteName: "Adam Spycha\u0142a (beach)"
+    isGroup: 0
+    parentIndex: 6
+    spriteID: ae76508af98fe427c8003bff259ca007
+    layerID: 33
+    mosaicPosition: {x: 12842, y: 4600}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Parallax_B_2
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 11f55310970e643c5b9e720981a0cae2
+    layerID: 41
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Cali Avant-garde Architects - SIDE
+    spriteName: Cali Avant-garde Architects - SIDE
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 890eeeb264f3d450b93aeceac750842e
+    layerID: 4
+    mosaicPosition: {x: 9783, y: 2916}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Querkopf Architekten
+    spriteName: Querkopf Architekten
+    isGroup: 0
+    parentIndex: 9
+    spriteID: c924f199c0ec44971aae89fa1e610156
+    layerID: 31
+    mosaicPosition: {x: 10703, y: 3862}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Parallax_B_3
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 994e336b351664e078ef6e5a28f29272
+    layerID: 39
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: NYTimesUnexpectedly Tropical History of Brutalism
+    spriteName: NYTimesUnexpectedly Tropical History of Brutalism
+    isGroup: 0
+    parentIndex: 12
+    spriteID: 99fe3c1977ddd4094b6d1b42089251fe
+    layerID: 5
+    mosaicPosition: {x: 8204, y: 2060}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "Adam Spycha\u0142a (rocks)"
+    spriteName: "Adam Spycha\u0142a (rocks)"
+    isGroup: 0
+    parentIndex: 12
+    spriteID: 3f1bc41679794438c9fcf3f2d1235e29
+    layerID: 35
+    mosaicPosition: {x: 8204, y: 3862}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Parallax_B_4
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 4cb4a49de9333452f9d75c0080bbb764
+    layerID: 11
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Mountains
+    spriteName: Mountains
+    isGroup: 0
+    parentIndex: 15
+    spriteID: dc566acf5680040e1993f874ef0bc325
+    layerID: 37
+    mosaicPosition: {x: 4, y: 3862}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Parallax_B_5
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 6a6a3f076ad7a4eb489d3e997d2cc1a7
+    layerID: 50
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Sky
+    spriteName: Sky
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 4a2845b92062b4b4aafaf70e0917cb00
+    layerID: 22
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   mosaicPSDLayers:
   - name: Parallax_F_1
     spriteName: 
@@ -1100,7 +1623,6 @@ ScriptedImporter:
     isImported: 1
     isVisible: 1
   sharedRigPSDLayers: []
-  pSDLayerImportSetting: []
   importFileNodeState: 1
   platformSettingsDirtyTick: 0
   spriteSizeExpandChanged: 0
