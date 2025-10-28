@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 /// Basic 2D platformer character controller
-/// 2022 Owen Mundy
+/// 2022 Owen Mundy (Updated 2025-10-28)
 /// Based on Brackeys "2D Movement in Unity (Tutorial)"
 /// https://www.youtube.com/watch?v=dwcT-Dch0bA&list=PLPV2KyIb3jR6TFcFuzI2bB7TMNIIBpKMQ&index=2&t=1008s
 
@@ -25,7 +25,6 @@ public class PlayerController : MonoBehaviour
     [Header("Parameters")]
 
     [SerializeField] private LayerMask groundLayer; // A mask determining what is ground to the character
-    [SerializeField] private Transform ceilingCheck; // A position marking where to check for ceilings
     [SerializeField] private Transform groundCheck; // A position marking where to check if the player is isGrounded.
 
     private Vector3 velocity = Vector3.zero;
@@ -63,12 +62,10 @@ public class PlayerController : MonoBehaviour
             UnityEditor.EditorApplication.isPlaying = false;
         }
 
-
         try
         {
             // get child objects, stop game if not found
             groundCheck = transform.Find("GroundCheck").gameObject.transform;
-            // ceilingCheck = transform.Find("CeilingCheck").gameObject.transform;
         }
         catch (Exception e)
         {

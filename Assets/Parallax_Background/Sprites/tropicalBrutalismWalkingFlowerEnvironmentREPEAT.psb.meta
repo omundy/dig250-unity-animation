@@ -11,7 +11,7 @@ ScriptedImporter:
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapsPreserveCoverage: 0
@@ -104,7 +104,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 15693
-      y: 3862
+      y: 2060
       width: 518
       height: 705
     spriteID: 6714e0412a3884356bff388c20859e7e
@@ -115,7 +115,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 15693, y: 3862}
+    uvTransform: {x: 15693, y: 2060}
     spritePosition: {x: 1510, y: 897}
   - name: AdamSpychala
     originalName: 
@@ -126,7 +126,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 9783
-      y: 2060
+      y: 4
       width: 1784
       height: 848
     spriteID: fd463c538cc7e469fb8a3d0243a83c62
@@ -146,7 +146,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 9783, y: 2060}
+    uvTransform: {x: 9783, y: 4}
     spritePosition: {x: 1440, y: 243}
   - name: RPArquitectos
     originalName: 
@@ -157,7 +157,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 12842
-      y: 3862
+      y: 2060
       width: 2843
       height: 730
     spriteID: f7fd8f56b89ed41d7b8c03f3e9e94e30
@@ -179,7 +179,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 12842, y: 3862}
+    uvTransform: {x: 12842, y: 2060}
     spritePosition: {x: 4321, y: 308}
   - name: Ground
     originalName: 
@@ -190,9 +190,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 2060
+      y: 3783
       width: 8192
-      height: 1794
+      height: 449
     spriteID: cd15c05c1ce124e8d82efbfda403e787
     spriteBone: []
     spriteOutline: []
@@ -206,7 +206,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 2060}
+    uvTransform: {x: 4, y: 3783}
     spritePosition: {x: 0, y: 0}
   - name: Cali Avant-garde Architects - FRONT
     originalName: 
@@ -217,7 +217,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 8204
-      y: 4983
+      y: 3181
       width: 1693
       height: 584
     spriteID: 2caba33256e904051948bd3e83a767bf
@@ -228,7 +228,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 8204, y: 4983}
+    uvTransform: {x: 8204, y: 3181}
     spritePosition: {x: 76, y: 557}
   - name: "Adam Spycha\u0142a (beach)"
     originalName: 
@@ -239,7 +239,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 12842
-      y: 4600
+      y: 2798
       width: 2015
       height: 769
     spriteID: ae76508af98fe427c8003bff259ca007
@@ -250,7 +250,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 12842, y: 4600}
+    uvTransform: {x: 12842, y: 2798}
     spritePosition: {x: 2675, y: 255}
   - name: Cali Avant-garde Architects - SIDE
     originalName: 
@@ -260,8 +260,8 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 9783
-      y: 2916
+      x: 11575
+      y: 4
       width: 1532
       height: 876
     spriteID: 890eeeb264f3d450b93aeceac750842e
@@ -272,7 +272,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 9783, y: 2916}
+    uvTransform: {x: 11575, y: 4}
     spritePosition: {x: 2396, y: 504}
   - name: Querkopf Architekten
     originalName: 
@@ -283,7 +283,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 10703
-      y: 3862
+      y: 2060
       width: 2131
       height: 1124
     spriteID: c924f199c0ec44971aae89fa1e610156
@@ -294,7 +294,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 10703, y: 3862}
+    uvTransform: {x: 10703, y: 2060}
     spritePosition: {x: 5878, y: 565}
   - name: NYTimesUnexpectedly Tropical History of Brutalism
     originalName: 
@@ -305,7 +305,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 8204
-      y: 2060
+      y: 4
       width: 1571
       height: 1116
     spriteID: 99fe3c1977ddd4094b6d1b42089251fe
@@ -316,7 +316,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 8204, y: 2060}
+    uvTransform: {x: 8204, y: 4}
     spritePosition: {x: 432, y: 599}
   - name: "Adam Spycha\u0142a (rocks)"
     originalName: 
@@ -327,7 +327,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 8204
-      y: 3862
+      y: 2060
       width: 2491
       height: 1113
     spriteID: 3f1bc41679794438c9fcf3f2d1235e29
@@ -338,7 +338,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 8204, y: 3862}
+    uvTransform: {x: 8204, y: 2060}
     spritePosition: {x: 3196, y: 897}
   - name: Mountains
     originalName: 
@@ -349,7 +349,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 3862
+      y: 2060
       width: 8192
       height: 1715
     spriteID: dc566acf5680040e1993f874ef0bc325
@@ -360,7 +360,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 3862}
+    uvTransform: {x: 4, y: 2060}
     spritePosition: {x: 0, y: 0}
   - name: Sky
     originalName: 
@@ -981,10 +981,10 @@ ScriptedImporter:
   - name: DefaultTexturePlatform
     overridden: 0
     ignorePlatformSupport: 0
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     forceMaximumCompressionQuality_BC6H_BC7: 0
     crunchedCompression: 0
@@ -1092,7 +1092,7 @@ ScriptedImporter:
     parentIndex: 1
     spriteID: 6714e0412a3884356bff388c20859e7e
     layerID: 26
-    mosaicPosition: {x: 15693, y: 3862}
+    mosaicPosition: {x: 15693, y: 2060}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1102,7 +1102,7 @@ ScriptedImporter:
     parentIndex: 1
     spriteID: fd463c538cc7e469fb8a3d0243a83c62
     layerID: 38
-    mosaicPosition: {x: 9783, y: 2060}
+    mosaicPosition: {x: 9783, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1112,7 +1112,7 @@ ScriptedImporter:
     parentIndex: 1
     spriteID: f7fd8f56b89ed41d7b8c03f3e9e94e30
     layerID: 29
-    mosaicPosition: {x: 12842, y: 3862}
+    mosaicPosition: {x: 12842, y: 2060}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1122,7 +1122,7 @@ ScriptedImporter:
     parentIndex: 1
     spriteID: cd15c05c1ce124e8d82efbfda403e787
     layerID: 28
-    mosaicPosition: {x: 4, y: 2060}
+    mosaicPosition: {x: 4, y: 3783}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1142,7 +1142,7 @@ ScriptedImporter:
     parentIndex: 6
     spriteID: 2caba33256e904051948bd3e83a767bf
     layerID: 2
-    mosaicPosition: {x: 8204, y: 4983}
+    mosaicPosition: {x: 8204, y: 3181}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1152,7 +1152,7 @@ ScriptedImporter:
     parentIndex: 6
     spriteID: ae76508af98fe427c8003bff259ca007
     layerID: 33
-    mosaicPosition: {x: 12842, y: 4600}
+    mosaicPosition: {x: 12842, y: 2798}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1172,7 +1172,7 @@ ScriptedImporter:
     parentIndex: 9
     spriteID: 890eeeb264f3d450b93aeceac750842e
     layerID: 4
-    mosaicPosition: {x: 9783, y: 2916}
+    mosaicPosition: {x: 11575, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1182,7 +1182,7 @@ ScriptedImporter:
     parentIndex: 9
     spriteID: c924f199c0ec44971aae89fa1e610156
     layerID: 31
-    mosaicPosition: {x: 10703, y: 3862}
+    mosaicPosition: {x: 10703, y: 2060}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1202,7 +1202,7 @@ ScriptedImporter:
     parentIndex: 12
     spriteID: 99fe3c1977ddd4094b6d1b42089251fe
     layerID: 5
-    mosaicPosition: {x: 8204, y: 2060}
+    mosaicPosition: {x: 8204, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1212,7 +1212,7 @@ ScriptedImporter:
     parentIndex: 12
     spriteID: 3f1bc41679794438c9fcf3f2d1235e29
     layerID: 35
-    mosaicPosition: {x: 8204, y: 3862}
+    mosaicPosition: {x: 8204, y: 2060}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1232,7 +1232,7 @@ ScriptedImporter:
     parentIndex: 15
     spriteID: dc566acf5680040e1993f874ef0bc325
     layerID: 37
-    mosaicPosition: {x: 4, y: 3862}
+    mosaicPosition: {x: 4, y: 2060}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -1640,7 +1640,7 @@ ScriptedImporter:
     isVisible: 1
   sharedRigPSDLayers: []
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638972416375867200
   spriteSizeExpandChanged: 0
   generateGOHierarchy: 0
   textureAssetName: 

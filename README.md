@@ -2,11 +2,12 @@
 # dig250-unity-animation
 
 
-A sample Unity (2021.2.7f1) project that shows
+A sample Unity project that shows
 
 - Basic sprite animation and controller
 - Timeline animation using keyframes
 - Animating and controlling a 2D character
+- Samples with skeletal animation
 
 
 
@@ -28,6 +29,14 @@ Scripts created using elements of the following:
 - Sharp Coder [Unity 2D Character Controller](https://sharpcoderblog.com/blog/2d-platformer-character-controller)
 - Benjamin Dendas [How to create a simple Character Controller for a 2D Unity project](https://medium.com/@benjamindendas/how-to-create-a-simple-character-controller-for-a-2d-unity-project-334221b6ecf3) and [code](https://github.com/BenjaminDendas/mini2d)
 - Artwork credit: [pixeldudesmaker generator](https://0x72.itch.io/pixeldudesmaker) by [0x72](https://0x72.itch.io/)
+
+
+## Parallax_Background
+
+![alt text](Assets/Parallax_Background/parallax.gif)
+
+- Playable character (PSB)
+- Parallax background using perspective camera and z-axis
 
 
 
