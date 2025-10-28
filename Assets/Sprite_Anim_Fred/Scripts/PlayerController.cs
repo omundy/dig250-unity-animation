@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
 
     // horizontal movement speed and direction
     public Vector2 playerInput;
-	
+
     // boolean to detect / test jump input
     [SerializeField] bool jumpPress = false;
     [SerializeField] bool jumpHold = false;
@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     public float fallMultiplier = 2.5f;
     public float lowJumpMultiplier = 3f;
 
-    [Range(0, .3f)] [SerializeField] private float movementSmoothing = .05f; // How much to smooth out the movement
+    [Range(0, .3f)][SerializeField] private float movementSmoothing = .05f; // How much to smooth out the movement
     [SerializeField] private bool airControl = true; // Whether or not a player can steer while jumping
 
     const float isGroundedRadius = .2f; // Radius of the overlap circle to determine if isGrounded
@@ -62,13 +62,17 @@ public class PlayerController : MonoBehaviour
             Debug.LogError("Rigidbody2D and Animator required");
             UnityEditor.EditorApplication.isPlaying = false;
         }
-		
-        // get child objects, stop game if not found
-        groundCheck = transform.Find("GroundCheck").gameObject.transform;
-        ceilingCheck = transform.Find("CeilingCheck").gameObject.transform;
-        if (!groundCheck || !ceilingCheck)
+
+
+        try
         {
-            Debug.LogError("GroundCheck and CeilingCheck required");
+            // get child objects, stop game if not found
+            groundCheck = transform.Find("GroundCheck").gameObject.transform;
+            // ceilingCheck = transform.Find("CeilingCheck").gameObject.transform;
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("GroundCheck (note the spelling!!!) required -- " + e.ToString());
             UnityEditor.EditorApplication.isPlaying = false;
         }
     }
