@@ -517,6 +517,20 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 136, y: 223}
     spritePosition: {x: 372, y: 36}
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -576,6 +590,8 @@ ScriptedImporter:
   skeletonAssetReferenceID: 
   pipeline: {instanceID: 0}
   pipelineVersion: 
+  spriteCategoryList:
+    categories: []
   spritePackingTag: 
   resliceFromLayer: 0
   pSDLayerImportSetting: []
