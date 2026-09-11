@@ -59,7 +59,9 @@ public class PlayerController : MonoBehaviour
         if (!rb2d || !animator)
         {
             Debug.LogError("Rigidbody2D and Animator required");
+#if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
+#endif
         }
 
         try
@@ -70,7 +72,9 @@ public class PlayerController : MonoBehaviour
         catch (Exception e)
         {
             Debug.LogError("GroundCheck (note the spelling!!!) required -- " + e.ToString());
+#if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
+#endif
         }
     }
 

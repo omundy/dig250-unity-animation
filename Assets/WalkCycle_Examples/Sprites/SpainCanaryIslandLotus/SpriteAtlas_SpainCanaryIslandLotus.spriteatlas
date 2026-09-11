@@ -21,7 +21,7 @@ SpriteAtlas:
       crunchedCompression: 0
       sRGB: 1
     platformSettings:
-    - serializedVersion: 3
+    - serializedVersion: 4
       m_BuildTarget: DefaultTexturePlatform
       m_MaxTextureSize: 2048
       m_ResizeAlgorithm: 0
@@ -31,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
@@ -80,6 +81,39 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - afdd8e40e88ef45fea7caae8428eddbc: 21300000
+    - 91b79580db91540f59813a223ca87d46: 21300000
+    - 4a7555f0849c5475ebdfe49cc4f1389c: 21300000
+    - 2896f4313cc804e12aabcda14d675f67: 21300000
+    - 6bf5cbb1b59ce434b88ea14dd3aed5c6: 21300000
+    - 4be4eec15daa8448ca3ea142820b12f7: 21300000
+    - 67ac8d02603fa41868acbc5fff8dc7d6: 21300000
+    - bee437d228c954734b327b8ded598eb7: 21300000
+    - 80199b539c66e49fea5cb5ac96fcc20a: 21300000
+    - 45c9da3707b894f34b213b07d35df066: 21300000
+    - b8b4e387525704cfcafd6586322b1c0d: 21300000
+    - d3421418c8fb5414d9102e00781177b0: 21300000
+    - 2b8a24b84155248c7b472507258b8583: 21300000
+    - b8167cd89822341a89d2d2c4e3e71d7b: 21300000
+    - c2b5c6e815e2c41e5b850277664acbc0: 21300000
+    - 95670bf9a393a4cfea60d8c04ab4aee9: 21300000
+    - 002c4e6a810204fdba5552eb7c3485d1: 21300000
+    - 268bbcda3b22142cbaec35ad848a9f08: 21300000
+    - 27f2918bb5b82414b839b02d8dd4832c: 21300000
+    - 36cf628bdb4974a78be98669149d75ce: 21300000
+    - bf7caf8b01bdd411f9b944eec4ed4ce1: 21300000
+    - 1e833fdbdba214255a46712497111cbb: 21300000
+    - 7e53a77ce97e44de6866122332a8b2d2: 21300000
+    - c970848cde6d348dfbe1a66f37ecb2b4: 21300000
+    - 2a86996d1c45946af845c1992f020b83: 21300000
+    - 781384bd53ca54882a56a7e5ad25bd09: 21300000
+    - 1b4ab54ea2c1040879517a34393f3478: 21300000
+    - 1da5d3aec6d77403a9ae7955d45ec396: 21300000
+    - 9273d90ff9d8e4cf6b2b83754d5dc0cc: 21300000
+    - 90099e0f22768434fad369dafaf804f1: 21300000
+    - e4f7284f6241f4debb8647b1f81db9ae: 21300000
+    - 8747ea8fca7ea42c3ad170e3f665d74b: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: afdd8e40e88ef45fea7caae8428eddbc, type: 3}
@@ -148,5 +182,5 @@ SpriteAtlas:
   - 0-01-spain-canary-islands-lotus-berthelotii-plant-CHARACTER-HINGED29
   - 0-01-spain-canary-islands-lotus-berthelotii-plant-CHARACTER-HINGED26
   m_RenderDataMap: {}
-  m_Tag: New Sprite Atlas
+  m_Tag: SpriteAtlas_SpainCanaryIslandLotus
   m_IsVariant: 0
