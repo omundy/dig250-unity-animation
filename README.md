@@ -53,3 +53,17 @@ Scripts created using elements of the following:
 
 - Example showing how to play a video in both UI (Canvas) and world space.
 - See this video for a walk through: [Title Screen Animation in After Effects & Unity](https://youtu.be/TB9Rrq60t5E?t=1268)
+
+
+
+
+
+## 2D Animation Samples
+
+A Unity package showing skeletal animation.
+
+![sample 1 snake](Assets/Screenshots/2D-anim-sample-1.gif)
+![sample 2 character](Assets/Screenshots/2D-anim-sample-2.gif)
+![sample 3 character](Assets/Screenshots/2D-anim-sample-3.gif)
+![sample 4 swap 1 girl](Assets/Screenshots/2D-anim-sample-4-swap-1.gif)
+![sample 4 swap 5 shared skeleton](Assets/Screenshots/2D-anim-sample-4-swap-5.gif)
