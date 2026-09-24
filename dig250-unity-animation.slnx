@@ -1,6 +1,6 @@
 ﻿<Solution>
-  <Project Path="Unity.2D.Animation.Samples.Runtime.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Unity.2D.Animation.Samples.Runtime.csproj" />
   <Project Path="Unity.2D.Animation.Samples.Editor.csproj" />
   <Project Path="Unity.2D.Animation.Samples.Dependency.csproj" />
 </Solution>

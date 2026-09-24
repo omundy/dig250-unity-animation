@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.3.23f1
-CRC: 2989986598
+CRC: 3723435117
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1998fb0ca6d22249913d1adc27e9728d
+    Hash: a17a2fd63bb7017600cd55a717909156
   TypeTreeHash:
     serializedVersion: 2
     Hash: 602cf5a42ef1e795cf7355ae9506080e
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 5cfb605c46e60f4bd95935fe487e041b
+    Hash: 8e5c60e06b6d72e3ddceae7564ebd4db
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -39,6 +39,7 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Unity.2D.Animation.Runtime
   ClassName: UnityEngine.U2D.Animation.SpriteLibCategory
 Assets:
-- Assets/Samples/2D Animation/12.0.2/Samples/4 SpriteSwap/Sprite Library/Skeleton.spriteLib
-- Assets/Samples/2D Animation/12.0.2/Samples/4 SpriteSwap/Sprites/Skeleton.psb
+- Assets/Animations_Character_Rigs/Unity 2D Animation examples/12.0.2/Samples/4 SpriteSwap/Sprite
+  Library/Skeleton.spriteLib
+- Assets/Animations_Character_Rigs/Unity 2D Animation examples/12.0.2/Samples/4 SpriteSwap/Sprites/Skeleton.psb
 Dependencies: []
